@@ -3,7 +3,7 @@ import homeRun from "../images/home-run.png";
 
 const HomeRun = () => {
   return (
-    <a href={process.env.PUBLIC_URL + "/"}>
+    <a href={"/"}>
       <img
         className="home"
         src={homeRun}
