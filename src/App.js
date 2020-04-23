@@ -18,10 +18,13 @@ function App() {
     <Router>
       <NavComponent />
       <Switch>
-        <Route path="/drews_portfolio" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/projects" component={Portfolio} />
+        <Route path={process.env.PUBLIC_URL + "/"} exact component={Home} />
+        <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
+        <Route path={process.env.PUBLIC_URL + "/contact"} component={Contact} />
+        <Route
+          path={process.env.PUBLIC_URL + "/projects"}
+          component={Portfolio}
+        />
       </Switch>
       <HomeRun />
     </Router>
