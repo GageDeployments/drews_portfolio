@@ -15,13 +15,13 @@ import {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/drews_portfolio/">
       <NavComponent />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/projects" component={Portfolio} />
+        <Route path="/drews_portfolio/about" component={About} />
+        <Route path="/drews_portfolio/contact" component={Contact} />
+        <Route path="/drews_portfolio/projects" component={Portfolio} />
       </Switch>
       <HomeRun />
     </Router>

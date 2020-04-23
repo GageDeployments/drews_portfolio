@@ -32,62 +32,62 @@ const Head = () => {
     backgroundSize: "cover",
   };
 
-  if (window.location.pathname == "/projects") {
-    portfolioPicContainer = {
-      display: "flex",
-      justifyContent: "flex-start",
-      alignItems: "center",
-      marginTop: "10px",
-    };
-    portfolioPic = {
-      borderRadius: "50%",
-      height: "100px",
-      width: "100px",
-      border: "1px solid lightgray",
-      backgroundColor: "lightgray",
-      boxShadow: "3px 5px 8px gray",
-      background: `url(${profilePic})`,
-      backgroundSize: "cover",
-    };
-  } else if (window.location.pathname == "/about") {
-    portfolioPicContainer = {
-      display: "flex",
-      justifyContent: "flex-end",
-      alignItems: "center",
-      marginTop: "10px",
-    };
-    portfolioPic = {
-      borderRadius: "50%",
-      height: "100px",
-      width: "100px",
-      border: "1px solid lightgray",
-      backgroundColor: "lightgray",
-      boxShadow: "3px 5px 8px gray",
-      background: `url(${profilePic})`,
-      backgroundSize: "cover",
-    };
-  } else if (window.location.pathname == "/contact") {
-    portfolioPicContainer = {
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      marginTop: "10px",
-    };
-    portfolioPic = {
-      borderRadius: "50%",
-      height: "150px",
-      width: "150px",
-      border: "1px solid lightgray",
-      backgroundColor: "lightgray",
-      boxShadow: "3px 5px 8px gray",
-      background: `url(${profilePic})`,
-      backgroundSize: "cover",
-    };
-  }
+  // if (window.location.pathname == "/projects") {
+  //   portfolioPicContainer = {
+  //     display: "flex",
+  //     justifyContent: "flex-start",
+  //     alignItems: "center",
+  //     marginTop: "10px",
+  //   };
+  //   portfolioPic = {
+  //     borderRadius: "50%",
+  //     height: "100px",
+  //     width: "100px",
+  //     border: "1px solid lightgray",
+  //     backgroundColor: "lightgray",
+  //     boxShadow: "3px 5px 8px gray",
+  //     background: `url(${profilePic})`,
+  //     backgroundSize: "cover",
+  //   };
+  // } else if (window.location.pathname == "/about") {
+  //   portfolioPicContainer = {
+  //     display: "flex",
+  //     justifyContent: "flex-end",
+  //     alignItems: "center",
+  //     marginTop: "10px",
+  //   };
+  //   portfolioPic = {
+  //     borderRadius: "50%",
+  //     height: "100px",
+  //     width: "100px",
+  //     border: "1px solid lightgray",
+  //     backgroundColor: "lightgray",
+  //     boxShadow: "3px 5px 8px gray",
+  //     background: `url(${profilePic})`,
+  //     backgroundSize: "cover",
+  //   };
+  // } else if (window.location.pathname == "/contact") {
+  //   portfolioPicContainer = {
+  //     display: "flex",
+  //     justifyContent: "center",
+  //     alignItems: "center",
+  //     marginTop: "10px",
+  //   };
+  //   portfolioPic = {
+  //     borderRadius: "50%",
+  //     height: "150px",
+  //     width: "150px",
+  //     border: "1px solid lightgray",
+  //     backgroundColor: "lightgray",
+  //     boxShadow: "3px 5px 8px gray",
+  //     background: `url(${profilePic})`,
+  //     backgroundSize: "cover",
+  //   };
+  // }
 
-  const contact = () => {
-    window.location.href = "/contact";
-  };
+  // const contact = () => {
+  //   window.location.href = "/contact";
+  // };
 
   const onHover = {
     boxShadow: "3px 5px 8px black",
@@ -97,11 +97,12 @@ const Head = () => {
     <Container>
       <div style={portfolioPicContainer}>
         <LeftArrow />
-        <div
+        {/* the link under should use react router link */}
+        {/* <div
           onClick={contact}
           className="portfolioPic"
           style={portfolioPic}
-        ></div>
+        ></div> */}
         <RightArrow />
       </div>
     </Container>
