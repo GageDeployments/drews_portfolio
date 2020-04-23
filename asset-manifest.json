@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/drews_portfolio/static/css/main.07ebec76.chunk.css",
+    "main.js": "/drews_portfolio/static/js/main.c2fae7d5.chunk.js",
+    "main.js.map": "/drews_portfolio/static/js/main.c2fae7d5.chunk.js.map",
+    "runtime-main.js": "/drews_portfolio/static/js/runtime-main.e68db22c.js",
+    "runtime-main.js.map": "/drews_portfolio/static/js/runtime-main.e68db22c.js.map",
+    "static/js/2.a5ce7724.chunk.js": "/drews_portfolio/static/js/2.a5ce7724.chunk.js",
+    "static/js/2.a5ce7724.chunk.js.map": "/drews_portfolio/static/js/2.a5ce7724.chunk.js.map",
+    "index.html": "/drews_portfolio/index.html",
+    "precache-manifest.6fb02cd4c8a6c1e337bdcd4b203b14d3.js": "/drews_portfolio/precache-manifest.6fb02cd4c8a6c1e337bdcd4b203b14d3.js",
+    "service-worker.js": "/drews_portfolio/service-worker.js",
+    "static/css/main.07ebec76.chunk.css.map": "/drews_portfolio/static/css/main.07ebec76.chunk.css.map",
+    "static/js/2.a5ce7724.chunk.js.LICENSE.txt": "/drews_portfolio/static/js/2.a5ce7724.chunk.js.LICENSE.txt",
+    "static/media/mysql.png": "/drews_portfolio/static/media/mysql.af25e683.png",
+    "static/media/profilePic.png": "/drews_portfolio/static/media/profilePic.1e4391bb.png",
+    "static/media/pycdv.PNG": "/drews_portfolio/static/media/pycdv.cb5e0d8c.PNG",
+    "static/media/tbc.jpg": "/drews_portfolio/static/media/tbc.d21e6f1c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e68db22c.js",
+    "static/js/2.a5ce7724.chunk.js",
+    "static/css/main.07ebec76.chunk.css",
+    "static/js/main.c2fae7d5.chunk.js"
+  ]
+}
